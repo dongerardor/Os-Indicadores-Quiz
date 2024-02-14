@@ -1,0 +1,376 @@
+[
+    {
+        "id": 0,
+        "question": "Who wrote the novel \"1984\"?",
+        "answers": [
+            "George Orwell",
+            "J.K. Rowling",
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway"
+        ],
+        "correctAnswer": "George Orwell"
+    },
+    {
+        "id": 1,
+        "question": "What is the capital city of Australia?",
+        "answers": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+        ],
+        "correctAnswer": "Canberra"
+    },
+    {
+        "id": 2,
+        "question": "What is the chemical symbol for Gold?",
+        "answers": [
+            "Gd",
+            "Go",
+            "Ag",
+            "Au"
+        ],
+        "correctAnswer": "Au"
+    },
+    {
+        "id": 3,
+        "question": "In what year was the first iPhone released?",
+        "answers": [
+            "2005",
+            "2007",
+            "2008",
+            "2010"
+        ],
+        "correctAnswer": "2007"
+    },
+    {
+        "id": 4,
+        "question": "What is the tallest mountain in the world?",
+        "answers": [
+            "K2",
+            "Mount Everest",
+            "Mount Kilimanjaro",
+            "Denali"
+        ],
+        "correctAnswer": "Mount Everest"
+    },
+    {
+        "id": 5,
+        "question": "Who painted the \"Mona Lisa\"?",
+        "answers": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Raphael",
+            "Caravaggio"
+        ],
+        "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+        "id": 6,
+        "question": "Which planet is known as the \"Red Planet\"?",
+        "answers": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correctAnswer": "Mars"
+    },
+    {
+        "id": 7,
+        "question": "Who discovered electricity?",
+        "answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Michael Faraday",
+            "Benjamin Franklin"
+        ],
+        "correctAnswer": "Benjamin Franklin"
+    },
+    {
+        "id": 8,
+        "question": "What is the world's largest ocean?",
+        "answers": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Southern Ocean"
+        ],
+        "correctAnswer": "Pacific Ocean"
+    },
+    {
+        "id": 9,
+        "question": "Who came up with the theory of relativity?",
+        "answers": [
+            "Edgar Allan Poe",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Louis Pasteur"
+        ],
+        "correctAnswer": "Albert Einstein"
+    },
+    {
+        "id": 10,
+        "question": "What is the national bird of the United States?",
+        "answers": [
+            "Eagle",
+            "Bald Eagle",
+            "Condor",
+            "Pigeon"
+        ],
+        "correctAnswer": "Eagle"
+    },
+    {
+        "id": 11,
+        "question": "What language is spoken in Brazil?",
+        "answers": [
+            "Spanish",
+            "Portuguese",
+            "English",
+            "French"
+        ],
+        "correctAnswer": "Portuguese"
+    },
+    {
+        "id": 12,
+        "question": "Who directed the movie \"Jurassic Park\"?",
+        "answers": [
+            "Steven Spielberg",
+            "George Lucas",
+            "Michael Bay",
+            "Stanley Kubrick"
+        ],
+        "correctAnswer": "Steven Spielberg"
+    },
+    {
+        "id": 13,
+        "question": "What is sushi traditionally wrapped in?",
+        "answers": [
+            "Rice Paper",
+            "Seaweed",
+            "Bamboo",
+            "Lettuce"
+        ],
+        "correctAnswer": "Seaweed"
+    },
+    {
+        "id": 14,
+        "question": "What is the main ingredient in hummus?",
+        "answers": [
+            "Potatoes",
+            "Lentils",
+            "Chickpeas",
+            "White Beans"
+        ],
+        "correctAnswer": "Chickpeas"
+    },
+    {
+        "id": 15,
+        "question": "Who is the author of the \"Harry Potter\" series?",
+        "answers": [
+            "J.D. Salinger",
+            "Roald Dahl",
+            "Suzanne Collins",
+            "J.K. Rowling -"
+        ],
+        "correctAnswer": "J.K. Rowling -"
+    },
+    {
+        "id": 16,
+        "question": "How many players are there in a soccer team?",
+        "answers": [
+            "6",
+            "11",
+            "9",
+            "4"
+        ],
+        "correctAnswer": "11"
+    },
+    {
+        "id": 17,
+        "question": "What does a barometer measure?",
+        "answers": [
+            "Sound",
+            "Light",
+            "Atmospheric Pressure",
+            "Humidity"
+        ],
+        "correctAnswer": "Atmospheric Pressure"
+    },
+    {
+        "id": 18,
+        "question": "What is the highest-grossing film of all time?",
+        "answers": [
+            "Titanic",
+            "Avatar",
+            "Avengers: Endgame",
+            "Star Wars: The Force Awakens"
+        ],
+        "correctAnswer": "Avengers: Endgame"
+    },
+    {
+        "id": 19,
+        "question": "In what decade was the Internet created?",
+        "answers": [
+            "1960s",
+            "1970s",
+            "1980s",
+            "1990s"
+        ],
+        "correctAnswer": "1960s"
+    },
+    {
+        "id": 20,
+        "question": "How many teeth does an adult human have?",
+        "answers": [
+            "28",
+            "32",
+            "30",
+            "26"
+        ],
+        "correctAnswer": "32"
+    },
+    {
+        "id": 21,
+        "question": "Who invented the lightbulb?",
+        "answers": [
+            "Albert Einstein",
+            "Nikola Tesla",
+            "Thomas Edison",
+            "Alexander Graham Bell"
+        ],
+        "correctAnswer": "Thomas Edison"
+    },
+    {
+        "id": 22,
+        "question": "What is the hottest planet in the solar system?",
+        "answers": [
+            "Mercury",
+            "Mars",
+            "Venus",
+            "Jupiter"
+        ],
+        "correctAnswer": "Venus"
+    },
+    {
+        "id": 23,
+        "question": "Who composed the music for \"The Nutcracker\"?",
+        "answers": [
+            "Mozart",
+            "Beethoven",
+            "Tchaikovsky",
+            "Bach"
+        ],
+        "correctAnswer": "Tchaikovsky"
+    },
+    {
+        "id": 24,
+        "question": "What does NASA stand for?",
+        "answers": [
+            "North American Satellite Association",
+            "National Aeronautics and Space Administration",
+            "National Association of Space Astronauts",
+            "National American Space Association"
+        ],
+        "correctAnswer": "National Aeronautics and Space Administration"
+    },
+    {
+        "id": 25,
+        "question": "Who was the first President of the United States?",
+        "answers": [
+            "Thomas Jefferson",
+            "Benjamin Franklin",
+            "Abraham Lincoln",
+            "George Washington"
+        ],
+        "correctAnswer": "George Washington"
+    },
+    {
+        "id": 26,
+        "question": "In what year was the United Nations founded?",
+        "answers": [
+            "1920",
+            "1945",
+            "1950",
+            "1935"
+        ],
+        "correctAnswer": "1945"
+    },
+    {
+        "id": 27,
+        "question": "Who is the CEO of Tesla?",
+        "answers": [
+            "Jeff Bezos",
+            "Mark Zuckerberg",
+            "Tim Cook",
+            "Elon Musk"
+        ],
+        "correctAnswer": "Elon Musk"
+    },
+    {
+        "id": 28,
+        "question": "What type of animal is a penguin?",
+        "answers": [
+            "Mammal",
+            "Reptile",
+            "Insect",
+            "Bird"
+        ],
+        "correctAnswer": "Bird"
+    },
+    {
+        "id": 29,
+        "question": "What is the capital city of Canada?",
+        "answers": [
+            "Vancouver",
+            "Toronto",
+            "Quebec City",
+            "Ottawa"
+        ],
+        "correctAnswer": "Ottawa"
+    },
+    {
+        "id": 30,
+        "question": "What is the strongest muscle in the human body?",
+        "answers": [
+            "Biceps",
+            "Quadriceps",
+            "Heart",
+            "Jaw Muscle (Masseter)"
+        ],
+        "correctAnswer": "Jaw Muscle (Masseter)"
+    },
+    {
+        "id": 31,
+        "question": "Who wrote the novel \"Pride and Prejudice\"?",
+        "answers": [
+            "Charlotte Bronte",
+            "Mary Shelley",
+            "Jane Austen",
+            "Emily Dickinson"
+        ],
+        "correctAnswer": "Jane Austen"
+    },
+    {
+        "id": 32,
+        "question": "What is the fastest land animal?",
+        "answers": [
+            "Cheetah",
+            "Ostrich",
+            "Lion",
+            "Elephant"
+        ],
+        "correctAnswer": "Cheetah"
+    },
+    {
+        "id": 33,
+        "question": "Who painted \"Starry Night\"?",
+        "answers": [
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Claude Monet",
+            "Edvard Munch"
+        ],
+        "correctAnswer": "Vincent van Gogh"
+    }
+]

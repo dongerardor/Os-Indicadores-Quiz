@@ -8,5 +8,17 @@ htmlcov/
 docs/_build/
 dist/
 venv/
+.venv/
+
+
+*.pyc
+
+instance/
+
+.pytest_cache/
+
+build/
+*.egg-info/
 
 Quiz.code-workspace
+*.txt

@@ -1,0 +1,365 @@
+[
+    {
+        "id": 34,
+        "question": "How many bones are there in the adult human body?",
+        "answers": [
+            "256",
+            "206",
+            "216",
+            "232"
+        ],
+        "correctAnswer": "206"
+    },
+    {
+        "id": 35,
+        "question": "What is the largest country in the world by area?",
+        "answers": [
+            "Canada",
+            "United States",
+            "Australia",
+            "Russia"
+        ],
+        "correctAnswer": "Russia"
+    },
+    {
+        "id": 36,
+        "question": "What is the loudest animal on Earth?",
+        "answers": [
+            "Lion",
+            "Elephant",
+            "Blue Whale",
+            "Sperm Whale"
+        ],
+        "correctAnswer": "Sperm Whale"
+    },
+    {
+        "id": 37,
+        "question": "What is the smallest country in the world?",
+        "answers": [
+            "Monaco",
+            "Vatican City",
+            "Malta",
+            "San Marino"
+        ],
+        "correctAnswer": "Vatican City"
+    },
+    {
+        "id": 38,
+        "question": "Who was Shakespeare?",
+        "answers": [
+            "A classical composer",
+            "A British King",
+            "An English playwright and poet",
+            "A scientist"
+        ],
+        "correctAnswer": "An English playwright and poet"
+    },
+    {
+        "id": 39,
+        "question": "Who discovered penicillin?",
+        "answers": [
+            "Isaac Newton",
+            "Thomas Edison",
+            "Marie Curie",
+            "Alexander Fleming"
+        ],
+        "correctAnswer": "Alexander Fleming"
+    },
+    {
+        "id": 40,
+        "question": "What are the primary colors?",
+        "answers": [
+            "Yellow, Blue, Red",
+            "Yellow, Orange, Green",
+            "Orange, Purple, Green",
+            "Blue, Green, Yellow"
+        ],
+        "correctAnswer": "Yellow, Blue, Red"
+    },
+    {
+        "id": 41,
+        "question": "What does WWW stand for?",
+        "answers": [
+            "World Wide Web",
+            "World Web Warriors",
+            "Wide World Web",
+            "Web Wide World"
+        ],
+        "correctAnswer": "World Wide Web"
+    },
+    {
+        "id": 42,
+        "question": "What is the capital city of Spain?",
+        "answers": [
+            "Seville",
+            "Barcelona",
+            "Valencia",
+            "Madrid"
+        ],
+        "correctAnswer": "Madrid"
+    },
+    {
+        "id": 43,
+        "question": "Who directed the movie \"Titanic\"?",
+        "answers": [
+            "Steven Spielberg",
+            "James Cameron",
+            "Alfred Hitchcock",
+            "Tim Burton"
+        ],
+        "correctAnswer": "James Cameron"
+    },
+    {
+        "id": 44,
+        "question": "In what year was Facebook founded?",
+        "answers": [
+            "2000",
+            "2004",
+            "2008",
+            "2010"
+        ],
+        "correctAnswer": "2004"
+    },
+    {
+        "id": 45,
+        "question": "Who were the Wright Brothers?",
+        "answers": [
+            "Scientists who discovered electricity",
+            "Astronauts who landed on the moon",
+            "Soviet spies during the cold war",
+            "Pioneers in aviation"
+        ],
+        "correctAnswer": "Pioneers in aviation"
+    },
+    {
+        "id": 46,
+        "question": "What is the square root of 121?",
+        "answers": [
+            "10",
+            "13",
+            "11",
+            "9"
+        ],
+        "correctAnswer": "11"
+    },
+    {
+        "id": 47,
+        "question": "Who was the first man to walk on the moon?",
+        "answers": [
+            "John Glenn",
+            "Yuri Gagarin",
+            "Buzz Aldrin",
+            "Neil Armstrong"
+        ],
+        "correctAnswer": "Neil Armstrong"
+    },
+    {
+        "id": 48,
+        "question": "What is the world's largest desert?",
+        "answers": [
+            "Mojave",
+            "Siberian Desert",
+            "Sahara",
+            "Antarctic Desert"
+        ],
+        "correctAnswer": "Antarctic Desert"
+    },
+    {
+        "id": 49,
+        "question": "Who composed the Four Seasons?",
+        "answers": [
+            "Beethoven",
+            "Mozart",
+            "Vivaldi",
+            "Handel"
+        ],
+        "correctAnswer": "Vivaldi"
+    },
+    {
+        "id": 50,
+        "question": "How many strings does a standard guitar have?",
+        "answers": [
+            "Four",
+            "Five",
+            "Six",
+            "Seven"
+        ],
+        "correctAnswer": "Six"
+    },
+    {
+        "id": 51,
+        "question": "What is the capital city of Italy?",
+        "answers": [
+            "Milan",
+            "Venice",
+            "Florence",
+            "Rome"
+        ],
+        "correctAnswer": "Rome"
+    },
+    {
+        "id": 52,
+        "question": "Who is the hero of the \"Indiana Jones\" series?",
+        "answers": [
+            "Tom Cruise",
+            "Harrison Ford",
+            "Chris Evans",
+            "Robert Downey Jr."
+        ],
+        "correctAnswer": "Harrison Ford"
+    },
+    {
+        "id": 53,
+        "question": "What kind of animal is Shrek?",
+        "answers": [
+            "Donkey",
+            "Dragon",
+            "Ogre",
+            "Giant"
+        ],
+        "correctAnswer": "Ogre"
+    },
+    {
+        "id": 54,
+        "question": "What is the biggest animal in the world?",
+        "answers": [
+            "African Elephant",
+            "Blue Whale",
+            "Saltwater Crocodile",
+            "White Rhinoceros"
+        ],
+        "correctAnswer": "Blue Whale"
+    },
+    {
+        "id": 55,
+        "question": "In what country were the 2024 Summer Olympics held?",
+        "answers": [
+            "Tokyo, Japan",
+            "Rio de Janeiro, Brazil",
+            "London, United Kingdom",
+            "Paris, France"
+        ],
+        "correctAnswer": "Paris, France"
+    },
+    {
+        "id": 56,
+        "question": "What language is spoken in Argentina?",
+        "answers": [
+            "English",
+            "Portuguese",
+            "Spanish",
+            "French"
+        ],
+        "correctAnswer": "Spanish"
+    },
+    {
+        "id": 57,
+        "question": "Who painted \"The Scream\"?",
+        "answers": [
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Edvard Munch",
+            "Claude Monet"
+        ],
+        "correctAnswer": "Edvard Munch"
+    },
+    {
+        "id": 58,
+        "question": "What is the primary gas found in the Earth's atmosphere?",
+        "answers": [
+            "Oxygen",
+            "Argon",
+            "Carbon Dioxide",
+            "Nitrogen"
+        ],
+        "correctAnswer": "Nitrogen"
+    },
+    {
+        "id": 59,
+        "question": "Who is the author of \"The Great Gatsby\"?",
+        "answers": [
+            "J.D. Salinger",
+            "Ernest Hemingway",
+            "F. Scott Fitzgerald",
+            "Mark Twain"
+        ],
+        "correctAnswer": "F. Scott Fitzgerald"
+    },
+    {
+        "id": 60,
+        "question": "What is the longest river in the world?",
+        "answers": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+        ],
+        "correctAnswer": "Nile River"
+    },
+    {
+        "id": 61,
+        "question": "Who are the two main characters in \"Romeo and Juliet\"?",
+        "answers": [
+            "Hamlet and Ophelia",
+            "Macbeth and Lady Macbeth",
+            "Romeo and Juliet",
+            "Othello and Desdemona"
+        ],
+        "correctAnswer": "Romeo and Juliet"
+    },
+    {
+        "id": 62,
+        "question": "In what country are the Pyramids of Giza located?",
+        "answers": [
+            "Iran",
+            "Iraq",
+            "Egypt",
+            "Saudi Arabia"
+        ],
+        "correctAnswer": "Egypt"
+    },
+    {
+        "id": 63,
+        "question": "What is a group of crows called?",
+        "answers": [
+            "A pack",
+            "A flock",
+            "A murder",
+            "A caw"
+        ],
+        "correctAnswer": "A murder"
+    },
+    {
+        "id": 64,
+        "question": "What does the prefix \"kilo\" mean in the metric system?",
+        "answers": [
+            "Hundred",
+            "Ten",
+            "Thousand",
+            "Million"
+        ],
+        "correctAnswer": "Thousand"
+    },
+    {
+        "id": 65,
+        "question": "Who directed the 2019 film \"Parasite\"?",
+        "answers": [
+            "Quentin Tarantino",
+            "Martin Scorsese",
+            "Bong Joon-ho",
+            "Christopher Nolan"
+        ],
+        "correctAnswer": "Bong Joon-ho"
+    },
+    {
+        "id": 66,
+        "question": "What color are emeralds?",
+        "answers": [
+            "Blue",
+            "Red",
+            "Green",
+            "Purple"
+        ],
+        "correctAnswer": "Green"
+    }
+]

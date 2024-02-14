@@ -1,0 +1,365 @@
+[
+    {
+        "id": 67,
+        "question": "Where do kangaroos originate from?",
+        "answers": [
+            "Africa",
+            "South America",
+            "North America",
+            "Australia"
+        ],
+        "correctAnswer": "Australia"
+    },
+    {
+        "id": 68,
+        "question": "Who sang the 1980s hit \"Like a Virgin\"?",
+        "answers": [
+            "Madonna",
+            "Cher",
+            "Cyndi Lauper",
+            "Tina Turner"
+        ],
+        "correctAnswer": "Madonna"
+    },
+    {
+        "id": 69,
+        "question": "What country does sushi originate from?",
+        "answers": [
+            "China",
+            "Korea",
+            "Thailand",
+            "Japan"
+        ],
+        "correctAnswer": "Japan"
+    },
+    {
+        "id": 70,
+        "question": "What does DNA stand for?",
+        "answers": [
+            "Deoxyribose Nitrogen Acid",
+            "Deoxyribonucleic Acid",
+            "Deoxyribonicle Acid",
+            "Deoxidized Nucleic Acid"
+        ],
+        "correctAnswer": "Deoxyribonucleic Acid"
+    },
+    {
+        "id": 71,
+        "question": "What word describes a word that spells the same backward and forwards?",
+        "answers": [
+            "Homonym",
+            "Synonym",
+            "Palindrome",
+            "Antonym"
+        ],
+        "correctAnswer": "Palindrome"
+    },
+    {
+        "id": 72,
+        "question": "What is the primary ingredient in guacamole?",
+        "answers": [
+            "Lime",
+            "Tomatoes",
+            "Avocado",
+            "Peppers"
+        ],
+        "correctAnswer": "Avocado"
+    },
+    {
+        "id": 73,
+        "question": "What year did World War II end?",
+        "answers": [
+            "1941",
+            "1945",
+            "1948",
+            "1950"
+        ],
+        "correctAnswer": "1945"
+    },
+    {
+        "id": 74,
+        "question": "Who played the Joker in the 2019 film?",
+        "answers": [
+            "Jack Nicholson",
+            "Heath Ledger",
+            "Jared Leto",
+            "Joaquin Phoenix"
+        ],
+        "correctAnswer": "Joaquin Phoenix"
+    },
+    {
+        "id": 75,
+        "question": "Whose face is on a $5 bill (the US)?",
+        "answers": [
+            "George Washington",
+            "Benjamin Franklin",
+            "Abraham Lincoln",
+            "Thomas Jefferson"
+        ],
+        "correctAnswer": "Abraham Lincoln"
+    },
+    {
+        "id": 76,
+        "question": "Who wrote the novel \"To Kill a Mockingbird\"?",
+        "answers": [
+            "Mark Twain",
+            "Ernest Hemingway",
+            "Harper Lee",
+            "Stephen King"
+        ],
+        "correctAnswer": "Harper Lee"
+    },
+    {
+        "id": 77,
+        "question": "Which planet has the most moons?",
+        "answers": [
+            "Mars",
+            "Venus",
+            "Saturn",
+            "Jupiter"
+        ],
+        "correctAnswer": "Jupiter"
+    },
+    {
+        "id": 78,
+        "question": "In what city is the United Nations headquartered?",
+        "answers": [
+            "Geneva, Switzerland",
+            "New York, USA",
+            "Paris, France",
+            "Vienna, Austria"
+        ],
+        "correctAnswer": "New York, USA"
+    },
+    {
+        "id": 79,
+        "question": "Who composed the opera \"Madame Butterfly\"?",
+        "answers": [
+            "Wolfgang Amadeus Mozart",
+            "Ludwig van Beethoven",
+            "Johann Sebastian Bach",
+            "Giacomo Puccini"
+        ],
+        "correctAnswer": "Giacomo Puccini"
+    },
+    {
+        "id": 80,
+        "question": "What chemical element has the symbol Na?",
+        "answers": [
+            "Neon",
+            "Nitrogen",
+            "Sodium",
+            "Argon"
+        ],
+        "correctAnswer": "Sodium"
+    },
+    {
+        "id": 81,
+        "question": "What is the capital of South Africa?",
+        "answers": [
+            "Johannesburg",
+            "Cape Town",
+            "Durban",
+            "Pretoria (this is also correct, South Africa has three capital cities)"
+        ],
+        "correctAnswer": "Cape Town"
+    },
+    {
+        "id": 82,
+        "question": "How many claws does a domestic cat usually have?",
+        "answers": [
+            "14",
+            "18",
+            "16",
+            "20"
+        ],
+        "correctAnswer": "18"
+    },
+    {
+        "id": 83,
+        "question": "Which fruit is the most popular and consumed worldwide?",
+        "answers": [
+            "Banana",
+            "Apple",
+            "Mango",
+            "Tomato"
+        ],
+        "correctAnswer": "Tomato"
+    },
+    {
+        "id": 84,
+        "question": "Who won the Best Actor Oscar in 2023?",
+        "answers": [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Joaquin Phoenix",
+            "The answer varies based on actual events in 2023."
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 85,
+        "question": "Who wrote the musical \"Hamilton\"?",
+        "answers": [
+            "Andrew Lloyd Webber",
+            "Lin-Manuel Miranda",
+            "Stephen Sondheim",
+            "Rodgers and Hammerstein"
+        ],
+        "correctAnswer": "Lin-Manuel Miranda"
+    },
+    {
+        "id": 86,
+        "question": "\"E=mc^2\" is known as?",
+        "answers": [
+            "Heisenberg's Uncertainty Principle",
+            "Newton's Law of Motion",
+            "Einstein's Theory of Relativity",
+            "Mendel's Law of Inheritance"
+        ],
+        "correctAnswer": "Einstein's Theory of Relativity"
+    },
+    {
+        "id": 87,
+        "question": "What is the main ingredient in a traditional Margherita pizza?",
+        "answers": [
+            "Pepperoni",
+            "Tomato, mozzarella, basil and olive oil",
+            "Pineapple",
+            "Sausage"
+        ],
+        "correctAnswer": "Tomato, mozzarella, basil and olive oil"
+    },
+    {
+        "id": 88,
+        "question": "In which country is the Sphinx located?",
+        "answers": [
+            "Greece",
+            "India",
+            "Egypt",
+            "Mexico"
+        ],
+        "correctAnswer": "Egypt"
+    },
+    {
+        "id": 89,
+        "question": "Who is the creator of the TV show \"Game of Thrones\"?",
+        "answers": [
+            "George R.R. Martin",
+            "J.R.R. Tolkien",
+            "David Benioff",
+            "D.B. Weiss"
+        ],
+        "correctAnswer": "George R.R. Martin"
+    },
+    {
+        "id": 90,
+        "question": "Who is the current host of Jeopardy! in 2023?",
+        "answers": [
+            "Alex Trebek",
+            "Ken Jennings",
+            "The answer varies depending on the actual host in 2023.",
+            "Jimmy Fallon"
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 91,
+        "question": "How many stars are there on the flag of China?",
+        "answers": [
+            "1",
+            "3",
+            "5",
+            "7"
+        ],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 92,
+        "question": "What type of car is the mystery machine in the Scooby-Doo series?",
+        "answers": [
+            "Pickup Truck",
+            "Sports Car",
+            "Van",
+            "Classic Car"
+        ],
+        "correctAnswer": "Van"
+    },
+    {
+        "id": 93,
+        "question": "Who first said, \"I think, therefore I am\"?",
+        "answers": [
+            "Plato",
+            "Aristotle",
+            "Descartes",
+            "Socrates"
+        ],
+        "correctAnswer": "Descartes"
+    },
+    {
+        "id": 94,
+        "question": "The Great Barrier Reef is off the coast of which country?",
+        "answers": [
+            "New Zealand",
+            "Australia",
+            "Chile",
+            "South Africa"
+        ],
+        "correctAnswer": "Australia"
+    },
+    {
+        "id": 95,
+        "question": "How many constellations are recognized by the International Astronomical Union?",
+        "answers": [
+            "88",
+            "100",
+            "92",
+            "76"
+        ],
+        "correctAnswer": "88"
+    },
+    {
+        "id": 96,
+        "question": "How many legs does a spider usually have?",
+        "answers": [
+            "Four",
+            "Six",
+            "Eight",
+            "Ten"
+        ],
+        "correctAnswer": "Eight"
+    },
+    {
+        "id": 97,
+        "question": "What is the main ingredient in chocolate?",
+        "answers": [
+            "Sugar",
+            "Milk",
+            "Cocoa Beans",
+            "Wheat"
+        ],
+        "correctAnswer": "Cocoa Beans"
+    },
+    {
+        "id": 98,
+        "question": "What year did women get the right to vote in the United States?",
+        "answers": [
+            "1920",
+            "1930",
+            "1940",
+            "1950"
+        ],
+        "correctAnswer": "1920"
+    },
+    {
+        "id": 99,
+        "question": "Who is the most decorated Olympian of all time?",
+        "answers": [
+            "Usain Bolt",
+            "Simone Biles",
+            "Michael Phelps",
+            "Carl Lewis"
+        ],
+        "correctAnswer": "Michael Phelps"
+    }
+]

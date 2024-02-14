@@ -1,0 +1,14 @@
+<p>Select quiz</p>
+<form action="{{ url_for('selectQuiz') }}" method="post">
+    <select name="quiz">
+        {% for quiz in quizzes %}
+            <option value="{{ quiz.id }}">{{ quiz.title }}</option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Select Quiz">
+</form>
+
+{% if selected_quiz_id %}
+    <p>Selected quiz: {{ selected_quiz_title }}</p>
+    <p><a href="{{ url_for('quiz', quiz=selected_quiz_id, question_id=0) }}">Start Quiz</a></p>
+{% endif %}
