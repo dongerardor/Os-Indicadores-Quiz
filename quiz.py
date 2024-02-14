@@ -2,9 +2,11 @@ import random
 from question import Question
 
 class Quiz:
+    quiz_size = 5
+
     def __init__(self, quiz):
         self.id = quiz['id']
-        self.questions_subset = random.sample(quiz['quiz'], 10)
+        self.questions_subset = random.sample(quiz['quiz'], Quiz.quiz_size)
         self.questions = []
         self.title = quiz['title']
         self.selected_question = None
@@ -13,23 +15,24 @@ class Quiz:
             self.questions.append(Question(question))
 
         self.question_id_list = [question.id for question in self.questions]
-        self.cursor = -1
+        self.cursor = 0
 
-    def getCursor(self):
-        return self.cursor
-    
     def getTotalQuestions(self):
         return len(self.questions)
     
     def getQuestion(self):
         return self.questions[self.cursor]
+    
+    def getCursor(self):
+        return self.cursor
+    
+    def setCursor(self, cursor):
+        self.cursor = cursor
         
-    def getNextQuestion(self):
+    def setCursorNext(self):
         if self.cursor < len(self.questions):
             self.cursor += 1
-            return self.getQuestion()
-        else:
-            return None
+            return self.cursor
         
     def getScore(self):
         score = 0

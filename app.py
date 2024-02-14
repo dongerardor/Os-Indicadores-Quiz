@@ -7,6 +7,7 @@ app = Flask(__name__)
 system = System()
 
 @app.route("/", methods = ['GET', 'POST'])
+@app.route("/start", methods = ['GET', 'POST'])
 def start():
     user = system.getUser()
     if user == None:
@@ -37,32 +38,31 @@ def selectQuiz():
         selected_quiz_title=selected_quiz_title
     )
 
-@app.route("/quiz/question", methods = ['GET', 'POST'])
+@app.route("/quiz", methods = ['GET', 'POST'])
 def quiz():
     quiz = system.quiz
 
     cursor = quiz.getCursor()
     total_questions = quiz.getTotalQuestions()
-
-    print(f'cursor: {cursor}, total_questions: {total_questions}')
-
-    if request.method == 'GET':
-        question = quiz.getNextQuestion()
+    question = quiz.getQuestion()
 
     if request.method == 'POST':
         answer = request.form['answer']
-        question = quiz.getQuestion()
         question.setAnswerSelected(answer)
-
-        if(quiz.getCursor() == quiz.getTotalQuestions()):
+        
+        if cursor == total_questions - 1:
+            quiz.setCursor(0)
             return redirect(url_for('results'))
-              
+        else:
+            cursor = quiz.setCursorNext()
+            return redirect(url_for('quiz'))
+        
     return render_template(
         'quiz.html', 
         quiz=quiz, 
         question=question,
-        cursor=quiz.getCursor(),
-        total_questions=quiz.getTotalQuestions()
+        cursor=cursor,
+        total_questions=total_questions
     )
 
 
