@@ -30,10 +30,7 @@ class Quizzes:
                         self.quizzes.append(data)
 
         for quiz in self.quizzes:
-            print(quiz['id'])
-            print(quiz['title'])
-            print(' /////////// ')
-        print(' ///////////////////////////////// ')
+            pass
 
         return self.quizzes
     

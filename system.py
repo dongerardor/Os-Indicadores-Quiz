@@ -58,6 +58,9 @@ class System:
     def loadQuiz(self, quiz):
         self.quiz = Quiz(quiz)
         return self.quiz
+    
+    def getQuiz(self):
+        return self.quiz
 
     def start(self):
         print('start')

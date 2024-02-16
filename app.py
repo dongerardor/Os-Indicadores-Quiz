@@ -9,34 +9,33 @@ system = System()
 @app.route("/", methods = ['GET', 'POST'])
 @app.route("/start", methods = ['GET', 'POST'])
 def start():
-    user = system.getUser()
-    if user == None:
-        if request.method == 'POST':
-            if request.form['username']:
-                user = User(request.form['username'])
-                system.registerUser(user)
-    
-    return render_template('start.html', user=user)
-
-@app.route("/selectQuiz", methods = ['GET', 'POST'])
-def selectQuiz():
     quizzes = system.getQuizzes()
-    selected_quiz_id = None
-    selected_quiz_title = None
+
     if request.method == 'POST':
-        selected_quiz_id = request.form['quiz']
-        for quiz in quizzes:
-            if quiz['id'] == int(selected_quiz_id):
-                selected_quiz_title = quiz['title']
-                system.loadQuiz(quiz)
-                break
+        if 'form-type' in request.form:
+            # load quiz
+            if request.form['form-type'] == 'set-quiz':
+                selected_quiz_id = request.form['quiz']
+                for _quiz in quizzes:
+                    if _quiz['id'] == int(selected_quiz_id):
+                        system.loadQuiz(_quiz)
+
+            elif request.form['form-type'] == 'set-name':
+                # set user name
+                if request.form['username']:
+                    user = User(request.form['username'])
+                    system.registerUser(user)
+
+    quiz = system.getQuiz()
+    user = system.getUser()
 
     return render_template(
-        'selectQuiz.html', 
-        quizzes=quizzes, 
-        selected_quiz_id=selected_quiz_id,
-        selected_quiz_title=selected_quiz_title
+        'start.html',
+        user=user,
+        quizzes=quizzes,
+        quiz=quiz
     )
+
 
 @app.route("/quiz", methods = ['GET', 'POST'])
 def quiz():
