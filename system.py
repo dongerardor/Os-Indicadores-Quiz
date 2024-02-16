@@ -1,31 +1,3 @@
-""" 
-
-
-System
--loadQuizes(): list
-+loadQuiz(): Quiz
-+registerUser(): Usuer
-
-
-User
--id: int
-+name: string
--quizes_taken: [Quiz]
-
-Quiz
--id: int
--questions: [Questions]
--getScore(): string
-
-Question
-+question: id
-+getQuestion(): string
-+getAnswers: {dict}
-+answer_selected_id: int
-
-"""
-import os
-from flask import json, current_app as app
 from quizzes import Quizzes
 from quiz import Quiz
 
@@ -61,7 +33,3 @@ class System:
     
     def getQuiz(self):
         return self.quiz
-
-    def start(self):
-        print('start')
-

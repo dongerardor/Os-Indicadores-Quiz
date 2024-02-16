@@ -1,5 +1,13 @@
-<p>Results</p>
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Thanks for answering all the questions!</h1>
 
 <h3>{{ score }}</h3>
 
-<a href="{{ url_for('start') }}">Start again</a>
+<div class="button-container">
+    <a class="button button-primary" href="{{ url_for('start') }}">Start again</a>
+</div>
+
+{% endblock %}

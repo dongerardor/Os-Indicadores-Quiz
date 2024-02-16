@@ -1,3 +1,19 @@
 body {
-    background-color: brown;
+    background-color: lightgrey;
+}
+
+h1 {
+    color: darkslategrey;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+div.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+input[type="radio"] {
+    margin: 1rem;
 }

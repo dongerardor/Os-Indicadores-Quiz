@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Welcome{% endblock %}
-
 {% block content %}
-    <h2>Welcome to the Flask Quiz App</h2>
+<div class="row">
+    <h5>Before starting, please say your name and select one of the available quizzes</h5>
     {% if user.name %}
-        <p>Welcome, {{ user.name }}!</p>
+        <h4>Welcome, {{ user.name }}!</h4>
     {% else %}
         <p>What`s your name?</p>
         <form name="user" action="{{ url_for('start') }}" method="post">
@@ -15,23 +14,26 @@
         </form>
     {% endif %}
 
-    <p>Select quiz</p>
-    <form name="select-quiz" action="{{ url_for('start') }}" method="post">
-        <input type="hidden" name="form-type" value="set-quiz">
-        <select name="quiz">
-            {% for quiz in quizzes %}
-                <option value="{{ quiz.id }}">{{ quiz.title }}</option>
-            {% endfor %}
-        </select>
-        <input type="submit" value="Select Quiz">
-    </form>
-
     {% if quiz %}
-        <p>Selected quiz: {{ quiz.title }}</p>
+        <h4>Selected quiz: {{ quiz.title }}</h4>
+    {% else %}
+        <p>Select quiz</p>
+        <form name="select-quiz" action="{{ url_for('start') }}" method="post">
+            <input type="hidden" name="form-type" value="set-quiz">
+            <select name="quiz">
+                {% for quiz in quizzes %}
+                    <option value="{{ quiz.id }}">{{ quiz.title }}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value="Select Quiz">
+        </form>
     {% endif %}
 
     {% if quiz and user %}
-        <p><a href="{{ url_for('quiz') }}">Start Quiz</a></p>
+    <div class="button-container">
+        <a class="button button-primary" href="{{ url_for('quiz') }}">Start Quiz</a>
+    </div> 
     {% endif %}
+</div>
 
 {% endblock %}

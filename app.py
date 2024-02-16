@@ -40,28 +40,28 @@ def start():
 @app.route("/quiz", methods = ['GET', 'POST'])
 def quiz():
     quiz = system.quiz
-
     cursor = quiz.getCursor()
     total_questions = quiz.getTotalQuestions()
     question = quiz.getQuestion()
 
     if request.method == 'POST':
-        answer = request.form['answer']
-        question.setAnswerSelected(answer)
-        
-        if cursor == total_questions - 1:
-            quiz.setCursor(0)
-            return redirect(url_for('results'))
-        else:
-            cursor = quiz.setCursorNext()
-            return redirect(url_for('quiz'))
+        answer = request.form.get('answer')
+        if answer:
+            question.setAnswerSelected(answer)
+            
+            if cursor == total_questions - 1:
+                quiz.setCursor(0)
+                return redirect(url_for('results'))
+            else:
+                cursor = quiz.setCursorNext()
+                return redirect(url_for('quiz'))
         
     return render_template(
         'quiz.html', 
         quiz=quiz, 
         question=question,
         cursor=cursor,
-        total_questions=total_questions
+        total_questions=total_questions,
     )
 
 

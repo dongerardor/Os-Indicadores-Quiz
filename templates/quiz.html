@@ -1,14 +1,19 @@
-<p>Este es el quiz</p>
+{% extends "base.html" %}
 
-<h3>{{ quiz.title}}</h3>
-<p>{{ question.question}}</p>
-<p>Cursor: {{ cursor }}</p>
-<p>Questions: {{ total_questions }}</p>
-<p>Question {{ cursor + 1 }} out of {{ total_questions }}.</p>
+{% block content %}
+<div class="row">
+    <h3>{{ question.question}}</h3>
+    <h5>Question {{ cursor + 1 }} out of {{ total_questions }}.</h5>
 
-<form action="{{ url_for('quiz') }}" method="post">
-    {% for answer in question.answers %}
-        <input type="radio" name="answer" value="{{ answer }}">{{ answer }}<br>
-    {% endfor %}
-    <input type="submit" value="Next">
-</form>
+    <form action="{{ url_for('quiz') }}" method="post">
+        {% for answer in question.answers %}
+            <input type="radio" name="answer" class="answer" value="{{ answer }}">{{ answer }}<br>
+        {% endfor %}
+
+        <div class="button-container">
+            <input class="button button-primary" type="submit" value="Next">
+        </div>
+
+    </form>
+</div>
+{% endblock %}

@@ -24,4 +24,3 @@ class Question:
     
     def checkAnswer(self):
         return self.answer_selected == self.correct_answer
-

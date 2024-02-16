@@ -40,3 +40,4 @@ class Quiz:
             if question.checkAnswer():
                 score += 1
         return f'You scored {score} out of {len(self.questions)}'
+    
