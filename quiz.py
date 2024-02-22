@@ -1,12 +1,11 @@
 import random
 from question import Question
+from config import Config
 
 class Quiz:
-    quiz_size = 5
-
     def __init__(self, quiz):
         self.id = quiz['id']
-        self.questions_subset = random.sample(quiz['quiz'], Quiz.quiz_size)
+        self.questions_subset = random.sample(quiz['quiz'], Config.NUMBER_OF_QUESTIONS)
         self.questions = []
         self.title = quiz['title']
         self.selected_question = None

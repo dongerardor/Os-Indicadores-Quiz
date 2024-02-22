@@ -27,9 +27,11 @@ class System:
         else:
             return []
 
-    def loadQuiz(self, quiz):
-        self.quiz = Quiz(quiz)
+    def getQuiz(self, quiz):
+        if quiz is not None:
+            self.quiz = Quiz(quiz)
+        
         return self.quiz
     
-    def getQuiz(self):
-        return self.quiz
+    def quizReady(self):
+        return self.quiz is not None and self.user is not None

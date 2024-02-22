@@ -1,3 +1,6 @@
+import random
+from config import Config
+
 class Question:
     def __init__(self, question):
         self.id = question['id']
@@ -7,8 +10,9 @@ class Question:
         self.answer_selected = None
 
     def getAnswers(self):
-        return self.answers
-    
+        return self.answers if not Config.SHUFFLE_ANSWERS \
+            else random.sample(self.answers, len(self.answers))
+        
     def getQuestion(self):
         return self.question
     

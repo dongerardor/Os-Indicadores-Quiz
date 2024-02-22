@@ -2,11 +2,11 @@
 
 {% block content %}
 <div class="row">
-    <h3>{{ question.question}}</h3>
+    <h3>{{ question }}</h3>
     <h5>Question {{ cursor + 1 }} out of {{ total_questions }}.</h5>
 
     <form action="{{ url_for('quiz') }}" method="post">
-        {% for answer in question.answers %}
+        {% for answer in answers %}
             <input type="radio" name="answer" class="answer" value="{{ answer }}">{{ answer }}<br>
         {% endfor %}
 
