@@ -10,14 +10,13 @@ system = System()
 @app.route("/start", methods = ['GET', 'POST'])
 def start():
     quizzes = system.getQuizzes()
-    selected_quiz = None
 
     if request.method == 'POST':
         if 'form-type' in request.form:
             # load quiz
             if request.form['form-type'] == 'set-quiz':
-                selected_quiz_id = request.form['quiz']
-                selected_quiz = quizzes[int(selected_quiz_id)]
+                quiz_id = request.form['quiz']
+                system.setQuiz(int(quiz_id))
 
             elif request.form['form-type'] == 'set-name':
                 # set user name
@@ -25,14 +24,16 @@ def start():
                     user = User(request.form['username'])
                     system.registerUser(user)
 
-    quiz = system.getQuiz(selected_quiz)
+    quiz = system.getQuiz()
     user = system.getUser()
+    if quiz:
+        system.setPartialQuiz(quiz)
 
     return render_template(
         'start.html',
         user=user,
         quizzes=quizzes,
-        quiz=quiz
+        quiz=quiz,
     )
 
 
@@ -41,10 +42,11 @@ def quiz():
     if(system.quizReady() == False):
         return redirect(url_for('start'))
     
-    quiz = system.quiz
-    cursor = quiz.getCursor()
-    total_questions = quiz.getTotalQuestions()
-    question_obj = quiz.getQuestion()
+    quiz = system.getQuiz()
+    partialQuiz = system.getPartialQuiz()
+    cursor = partialQuiz.getCursor()
+    total_questions = partialQuiz.getTotalQuestions()
+    question_obj = partialQuiz.getQuestion()
     question = question_obj.getQuestion()
     answers = question_obj.getAnswers()
 
@@ -54,10 +56,10 @@ def quiz():
             question_obj.setAnswerSelected(answer)
             
             if cursor == total_questions - 1:
-                quiz.setCursor(0)
+                partialQuiz.setCursor(0)
                 return redirect(url_for('results'))
             else:
-                cursor = quiz.setCursorNext()
+                cursor = partialQuiz.setCursorNext()
                 return redirect(url_for('quiz'))
         
     return render_template(
@@ -75,6 +77,6 @@ def results():
     if(system.quizReady() == False):
         return redirect(url_for('start'))
     
-    quiz = system.quiz
-    score = quiz.getScore()
+    partialQuiz = system.getPartialQuiz()
+    score = partialQuiz.getScore()
     return render_template('results.html', score=score)

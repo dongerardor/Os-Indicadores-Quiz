@@ -1,5 +1,4 @@
 from quizzes import Quizzes
-from quiz import Quiz
 
 # System is a Singleton class
 class System:
@@ -20,18 +19,21 @@ class System:
 
     def getUser(self):
         return self.user
-    
-    def getQuizzes(self):
-        if self.quizzes.getQuizzes():
-            return self.quizzes.getQuizzes()
-        else:
-            return []
 
-    def getQuiz(self, quiz):
-        if quiz is not None:
-            self.quiz = Quiz(quiz)
-        
-        return self.quiz
+    def getQuiz(self, quiz_id = None):
+        return self.quizzes.getQuiz(quiz_id)
     
+    def setQuiz(self, quiz_id):
+        return self.quizzes.setQuiz(quiz_id)
+    
+    def getPartialQuiz(self):
+        return self.quizzes.getPartialQuiz()
+    
+    def setPartialQuiz(self, quiz):
+        return self.quizzes.setPartialQuiz(quiz)
+        
+    def getQuizzes(self):
+        return self.quizzes.getQuizzes()
+        
     def quizReady(self):
-        return self.quiz is not None and self.user is not None
+        return self.getPartialQuiz() is not None and self.user is not None
