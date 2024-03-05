@@ -51,13 +51,12 @@ class Quizzes:
         return self.quiz
 
     def getPartialQuiz(self):
-        if not self.partial_quiz:
-            self.setPartialQuiz(self.quiz)
         return self.partial_quiz
     
     def setPartialQuiz(self, quiz):
         self.partial_quiz = None
-        self.partial_quiz = PartialQuiz(quiz)
+        if quiz:
+            self.partial_quiz = PartialQuiz(quiz)
         return self.partial_quiz
     
     def __iter__(self):

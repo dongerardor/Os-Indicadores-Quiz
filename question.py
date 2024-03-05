@@ -28,3 +28,6 @@ class Question:
     
     def checkAnswer(self):
         return self.answer_selected == self.correct_answer
+    
+    def isAnswered(self):
+        return self.answer_selected is not None

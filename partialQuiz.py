@@ -1,5 +1,4 @@
 import random
-from quiz import Quiz
 from question import Question
 from config import Config
 
@@ -39,4 +38,11 @@ class PartialQuiz():
             if question.checkAnswer():
                 score += 1
         return f'You scored {score} out of {len(self.questions)}'
+    
+    def quizCompleted(self):
+        for question in self.questions:
+            if not question.isAnswered():
+                return False
+        
+        return True
     

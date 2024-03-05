@@ -74,9 +74,11 @@ def quiz():
 
 @app.route("/results")
 def results():
-    if(system.quizReady() == False):
+    if system.quizReady() == False or system.quizCompleted() == False:
         return redirect(url_for('start'))
     
     partialQuiz = system.getPartialQuiz()
-    score = partialQuiz.getScore()
+    score = None
+    if partialQuiz:
+        score = partialQuiz.getScore()
     return render_template('results.html', score=score)

@@ -37,3 +37,11 @@ class System:
         
     def quizReady(self):
         return self.getPartialQuiz() is not None and self.user is not None
+    
+    def quizCompleted(self):
+        is_completed = False
+        partial_quiz = self.getPartialQuiz()
+        if partial_quiz:
+            is_completed = partial_quiz.quizCompleted()
+        
+        return is_completed
